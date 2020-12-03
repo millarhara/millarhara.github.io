@@ -1,0 +1,49 @@
+body {
+    
+    background-color: orange;
+    margin: 15px 15px 15px 15px ;
+    font-family: sans-serif;
+    max-width: 1300px;
+}
+title {
+    color: green;
+    padding: 10px;
+    border: 1px;
+}   
+ubtitle  { 
+    color: green;
+    margin: 10px;
+    
+}
+subpost { 
+    color: green;
+    margin: 15px;
+}
+.text0 {
+    font-size: 10px;
+    color: green;
+    margin: 10px; 
+}
+contato{
+    padding-right: 10px;
+    text-align: left;
+}
+contato li a {
+    color: red ;
+}
+
+menu {
+    position:inherit ;
+    top: 10px ;
+    left: 40px ;
+    margin: 40px 120px 11px;
+        
+}
+form {
+    
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
