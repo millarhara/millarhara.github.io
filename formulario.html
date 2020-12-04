@@ -5,26 +5,37 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Formulário Milla Rhara Fernandes Souza</title>
    <style>
-       h1{font-family:cursive;}
-       label{color:red;}
+       h1{
+           font-family:cursive;
+       }
+       label{
+           font-family:cursive;
+           color:red;
+       }
+       #form #enviar{
+        display: block;
+        padding: 3px 5px;
+        background-color: yellow;
+        border-radius: 2px;
+       }
      </style>
 </head>
  <body>
     <h1>Entre em contato</h1>
-<form action="https://millarhara.github.io/index.html" method="get">
-  <label>Nome:<input type="search" name: Milla Rhara></label> 
-  <input type="submit" value="search">
-</form>
-    <br>
-<form action="https://www.yahoo.com.br" method="get">
-  <label>Email:<input type="search" e-mail:millarhara@yahoo.com.br></label> 
-  <input type="submit" value="search">
-   </form>
-    <br>
-    <a href="curriculum.html">Currículo</a>
-    <br>
-    <a href="portfolio.html">Portfólio</a>
-    <br>
-    <a href="index.html">Principal</a>
-  </body>
+     <main>
+<section id="form">
+    <form>
+        <label for="nome"> Nome: </label><br>
+        <input type="texto" id="nome" name="nome"><br>
+        <label for="E-mail">E-mail:</label><br>
+        <input type="e-mail" id="e-mail" name="e-mail">
+        <div>
+          <label for="mensagem">Mensagem:</label><br>
+          <textarea id="mensagem"></textarea>
+        </div>
+        <input id="enviar" type="submit" value="Enviar">
+      </form>
+	</section>
+	</main>
+</body>
 </html>
